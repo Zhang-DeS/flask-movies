@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "manage.py", line 2, in <module>
+    from app import app
+  File "/home/zhangds/Python/flask-movies/app/__init__.py", line 2, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "manage.py", line 2, in <module>
+    from app import app
+  File "/home/zhangds/Python/flask-movies/app/__init__.py", line 2, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "manage.py", line 2, in <module>
+    from app import app
+  File "/home/zhangds/Python/flask-movies/app/__init__.py", line 2, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "manage.py", line 2, in <module>
+    from app import app
+  File "/home/zhangds/Python/flask-movies/app/__init__.py", line 2, in <module>
+    from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:9988/ (Press CTRL+C to quit)
+192.168.0.122 - - [29/Mar/2019 16:51:15] "GET /play/10/1/ HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:15] "GET /admin/ueditorHander?action=config&&noCache=1553849474788 HTTP/1.1" 404 -
+192.168.0.122 - - [29/Mar/2019 16:51:15] "GET /static/uploads/201903290128174dc49a634b494f4d81621c231549dca5.mp4 HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:15] "GET /static/base/images/logo.png HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:15] "GET /static/uploads/201903290128174dc49a634b494f4d81621c231549dca5.mp4 HTTP/1.1" 206 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:9987/ (Press CTRL+C to quit)
+192.168.0.122 - - [29/Mar/2019 16:51:37] "GET / HTTP/1.1" 404 -
+192.168.0.122 - - [29/Mar/2019 16:51:37] "GET /static/404/404.css HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:37] "GET /static/404/spaceman.svg HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:37] "GET /static/404/404.js HTTP/1.1" 200 -
+192.168.0.122 - - [29/Mar/2019 16:51:37] "GET /favicon.ico HTTP/1.1" 404 -
